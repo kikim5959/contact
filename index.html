@@ -1,42 +1,61 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Notre pagee de contact </title>
-
-    <!-- Bootstrap -->
+<meta charset="utf-8">
 
 
-</head>
 
-<body>
-    <!-- En tete et titre du site -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-1">Page de contact</h1>
-            <p class="lead">Pour nous contacter Envoyer nous un email ou contacter nous via nos resau socieaux</p>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Notre pagee de contact </title>
+<!-- Bootstrap -->
 
-        </div>
+
+
+
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-1">Contact sociaux</h1>
+        <p class="lead">Vous êtes actifs sur les réseaux sociaux ? Alors restons en contact pour partager toute l'actualité du developpement!</p>
+        <p></p>
+        <p>On facebook:</p>
+        <a href="https://www.facebook.com/profile.php?id=100008261418522">
+            <button style="font-size:24px">Button <i class="fa fa-facebook-official"></i></button>
+        </a>
+
+        <p>On twitter:</p>
+        <a href="https://twitter.com/hoceheisenberg">
+            <button style="font-size:24px">Button <i class="fa fa-twitter"></i></button>
+        </a>
+
     </div>
-    <div class="container-fluid">
+</div>
+<div class="center">
+    <h1>Coordonnées</h1>
+    <p class="leada">Vous souhaitez essayer notre solution ou nous contacter pour plus de renseignements. Vous avez aussi la possibilité de nous joindre Pour me contacter, merci de bien vouloir remplir le formulaire suivant. Je m'engage à vous répondre dans les plus brefs
+        délais.
+    </p>
+
+
+</div>
+
+<div class="container">
+    <div class="container">
 
         <form class="form-horizontal" role="form" method="post" action="index.php">
             <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Name</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                    <input class="form-control" id="name" name="name" placeholder="First &amp; Last Name" value="" type="text">
                 </div>
             </div>
             <div class="form-group">
                 <label for="email" class="col-sm-2 control-label">Email</label>
                 <div class="col-sm-5">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="exemple@gmail.com" value="">
+                    <input class="form-control" id="email" name="email" placeholder="exemple@gmail.com" value="" type="email">
                 </div>
             </div>
             <div class="form-group">
@@ -48,16 +67,21 @@
 
             <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-2">
-                    <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                    <input id="submit" name="submit" value="Send" class="btn btn-primary" type="submit">
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-2">
-
-                    <! Will be used to display an alert to the user>
+                    <div class="col-sm-6 col-xs-8">
+                        <!-- Will be used to display an alert to the user-->
+                    </div>
                 </div>
+
+
+
+
+
             </div>
         </form>
-</body>
-
-</html>
+    </div>
+</div>

@@ -1,1 +1,26 @@
-@import url("http://bootswatch.com/darkly/bootstrap.min.css");
+  .jumbotron {
+      background-color: teal;
+      text-align: center;
+  }
+  .jumbotron h1, p {
+      color: white;
+      text-align: center;
+      font-family:  monospace;
+  }
+
+  .leada {
+      color: #3b5998;
+      font-style: italic;
+  }
+  .center {
+      text-align: center;
+      color: #3b5998
+  }
+  .container {
+      color: #3b5998
+
+
+}
+
+.col-sm-5 {
+background-color: red;}
