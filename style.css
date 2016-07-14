@@ -9,12 +9,14 @@
   }
 
   .leada {
-      color: #3b5998;
-      font-style: italic;
+      color: white;
+      font-style:   oblique;
+      font-family: monospace;
+      font-size: 30px;
   }
   .center {
       text-align: center;
-      color: #3b5998
+      color: white;
   }
   .container {
       color: #3b5998
