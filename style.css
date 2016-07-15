@@ -1,46 +1,47 @@
 body {
     background: url(saw.jpg)
 }
-
 .jumbotron {
     background-color: transparent;
     text-align: center;
     margin-right: 120px;
     margin: 0px;
 }
-
 .jumbotron h1, p {
     color: white;
     text-align: center;
-    font-family:  monospace;
-
-  }
-
+    font-family: monospace;
+}
 
 /*coordoné et paragraphe*/
+
 .center {
     text-align: center;
-    font-style:  italic;
+    font-style: italic;
     font-family: monospace;
     font-size: 30px;
     color: white;
 }
 
 /*couleur des box du formulaire*/
+
 .col-sm-5 {
-background-color: blue;
-
-
+    background-color: blue;
 }
-/*police formulaire name email message*/
-.col-sm-2 {
-color:white;
-font-family: monospace;
 
+/*police formulaire name email message*/
+
+.col-sm-2 {
+    color: white;
+    font-family: monospace;
 }
 
 footer {
+    float: right;
+}
 
-float: right;
 
+button {
+
+  margin: auto;
 }
