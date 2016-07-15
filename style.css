@@ -13,8 +13,8 @@ body {
     color: white;
     text-align: center;
     font-family:  monospace;
-    font-kerning: normal;
-}
+
+  }
 
 
 /*coordoné et paragraphe*/
@@ -36,5 +36,11 @@ background-color: blue;
 .col-sm-2 {
 color:white;
 font-family: monospace;
+
+}
+
+footer {
+
+float: right;
 
 }
